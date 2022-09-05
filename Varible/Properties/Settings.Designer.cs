@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Varibles.Properties
+namespace Varible.Properties
 {
 
 

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Varibles")]
+[assembly: AssemblyTitle("Varible")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BSL")]
-[assembly: AssemblyProduct("Varibles")]
+[assembly: AssemblyProduct("Varible")]
 [assembly: AssemblyCopyright("Copyright © BSL 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5c4d57d0-6953-4ea4-97d1-14ac1b2262ef")]
+[assembly: Guid("b2d21d1e-bc39-44a8-934e-d23bf44dc64d")]
 
 // Version information for an assembly consists of the following four values:
 //
