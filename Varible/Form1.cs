@@ -58,6 +58,36 @@ namespace Varible
         {
             errormessage.Text = "";
             textBox3.Text = namearr.Length.ToString();
+            textBox2.Enabled = false;
+            elementtextbox.KeyPress += new KeyPressEventHandler(OnlyNumber);
+        }
+
+
+        #region textbox region
+
+        private void OnlyNumber(object sender,  KeyPressEventArgs e)
+
+        {
+            if(!(char.IsDigit(e.KeyChar) || e.KeyChar==(char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+        }
+
+        #endregion
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     #endregion
